@@ -1,0 +1,11 @@
+name,gender,parents,spouses,siblings,grandparents,greatGrandparents,unclesAunts,niecesNephews
+Aarti,female,,Gopal,,,,,
+Esha,female,,Kabir,,,,,
+John,male,Arjun;Pooja,,,Gopal;Aarti,,Riya;Ashish,
+Gopal,male,,Aarti,,,,,
+Ashish,male,Kabir;Esha,,Pooja,,,,John
+Riya,female,Gopal;Aarti,,Arjun;Aryan,,,,John
+Arjun,male,Gopal;Aarti,Pooja,Riya;Aryan,,,,
+Kabir,male,,Esha,,,,,
+Pooja,female,Kabir;Esha,Arjun,Ashish,,,,
+Aryan,male,Gopal;Aarti,,Arjun;Riya,,,,John

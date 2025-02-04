@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Tree Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Header styling */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 2em;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Main section styling */
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px;
+        }
+
+        /* File upload section */
+        .file-upload {
+            background-color: #ffffff;
+            border: 2px solid #4CAF50;
+            padding: 20px;
+            border-radius: 8px;
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .file-upload input[type="file"] {
+            display: none;
+        }
+
+        .custom-file-input {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .custom-file-input:hover {
+            background-color: #45a049;
+        }
+
+        /* Tree container  */
+        #tree-container {
+            margin-top: 40px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            width: 80%;
+            max-width: 1200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            min-height: 300px;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 1em;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Indian Family Tree Visualizer</h1>
+        <h6>By-Abhishek Saklani,Yash Rawat,Ansh Bansal,Avi Rawat</h6>
+    </header>
+    <main>
+        <div class="file-upload">
+            <label for="fileInput" class="custom-file-input">Upload CSV File</label>
+            <input type="file" id="fileInput" accept="family_tree.csv" />
+        </div>
+        <div id="tree-container"></div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Indian Family Tree Visualizer. All rights reserved.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
