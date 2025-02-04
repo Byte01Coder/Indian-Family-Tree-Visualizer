@@ -1,6 +1,6 @@
 # Indian-Family-Tree-Visualizer
 
-Overview
+# Overview
 
 The Indian Family Tree Visualizer is designed to represent complex Indian family structures beyond nuclear families. It enables users to add and visualize extended family relationships efficiently.
 
@@ -11,7 +11,7 @@ Relationship Queries – Define and search relationships.
 Optimized Data Handling – Efficient processing using advanced data structures.
 User-Friendly Interface – Intuitive graphical visualization.
 
-Mentor
+# Mentor
 
 Dr. Sahinur Rahman Laskar
 Assistant Professor
