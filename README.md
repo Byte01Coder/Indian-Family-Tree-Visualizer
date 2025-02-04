@@ -18,7 +18,7 @@ For any inquiries or feedback, please contact:
 Name: Abhishek Saklani  
 Education: B.tech CSE(AIML),UPES,Dehradun  
 Email: abhiezsaklani@gmail.com / Abhishek.102220@stu.upes.ac.in  
-GitHub: Byte01Coder  
+GitHub: [Byte01Coder  ](https://github.com/Byte01Coder)
 
 # Mentor
 
