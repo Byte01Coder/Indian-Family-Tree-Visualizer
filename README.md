@@ -11,6 +11,15 @@ Relationship Queries – Define and search relationships.
 Optimized Data Handling – Efficient processing using advanced data structures.  
 User-Friendly Interface – Intuitive graphical visualization.  
 
+# Contact
+
+For any inquiries or feedback, please contact:  
+
+Name: Abhishek Saklani  
+Education: B.tech CSE(AIML),UPES,Dehradun  
+Email: abhiezsaklani@gmail.com / Abhishek.102220@stu.upes.ac.in  
+GitHub: Byte01Coder  
+
 # Mentor
 
 Dr. Sahinur Rahman Laskar  
